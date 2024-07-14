@@ -115,6 +115,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           API_URL + banners[index]['imageUrl'],
                           alignment: AlignmentDirectional.topCenter,
                         ),
+                        Align(
+                          alignment: Alignment.topLeft,
+                          child: Text("post"),
+                        ),
                       ],
                     );
                   },
